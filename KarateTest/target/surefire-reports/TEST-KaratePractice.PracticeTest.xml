@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="KaratePractice.PracticeTest" time="8.829" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\KarateUdemy\KarateTest\target\test-classes;C:\KarateUdemy\KarateTest\target\classes;C:\Users\suman\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\suman\.m2\repository\com\intuit\karate\karate-core\0.9.6\karate-core-0.9.6.jar;C:\Users\suman\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\suman\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\suman\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\suman\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\suman\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\suman\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\suman\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\suman\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\suman\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\suman\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\suman\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\suman\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\suman\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\suman\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\suman\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\suman\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\suman\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\suman\.m2\repository\com\intuit\karate\karate-junit5\0.9.6\karate-junit5-0.9.6.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\suman\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\suman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
+    <property name="sun.java.command" value="C:\Users\suman\AppData\Local\Temp\surefire1808746936280698375\surefirebooter3283354051323682967.jar C:\Users\suman\AppData\Local\Temp\surefire1808746936280698375 2020-12-12T21-19-03_432-jvmRun1 surefire1815196154934856019tmp surefire_02444990966448958033tmp"/>
+    <property name="surefire.test.class.path" value="C:\KarateUdemy\KarateTest\target\test-classes;C:\KarateUdemy\KarateTest\target\classes;C:\Users\suman\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\suman\.m2\repository\com\intuit\karate\karate-core\0.9.6\karate-core-0.9.6.jar;C:\Users\suman\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\suman\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\suman\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\suman\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\suman\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\suman\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\suman\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\suman\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\suman\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\suman\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\suman\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\suman\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\suman\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\suman\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\suman\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\suman\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\suman\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\suman\.m2\repository\com\intuit\karate\karate-junit5\0.9.6\karate-junit5-0.9.6.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\suman\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\suman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\suman"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161"/>
+    <property name="basedir" value="C:\KarateUdemy\KarateTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\suman\AppData\Local\Temp\surefire1808746936280698375\surefirebooter3283354051323682967.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="suman"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\suman\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\suman\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="C:\KarateUdemy\KarateTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python\Scripts\;C:\Python\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\WINDOWS\System32\OpenSSH\;C:\Python\Scripts;C:\Program Files\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\PuTTY\;C:\Users\suman\apache-maven-3.6.3\bin;C:\Users\suman\scoop\shims;C:\Program Files (x86)\Python\Scripts\;C:\Program Files (x86)\Python\;C:\Users\suman\AppData\Local\Microsoft\WindowsApps;C:\Python;C:\Users\suman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\suman\AppData\Roaming\npm;C:\Users\suman\AppData\Local\Microsoft\WindowsApps;C:\Users\suman\AppData\Local\atom\bin;C:\kafka_2.12-2.6.0\bin\windows;C:\Users\suman\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAll[1][1]" classname="KaratePractice.PracticeTest" time="1.143"/>
+  <testcase name="testAll[2][1]" classname="KaratePractice.PracticeTest" time="7.174">
+    <failure message="UI.feature:11 - path: $, actual: &apos;&apos;, expected: &apos;testwwwwwwwwwwwwwwww&apos;, reason: not equal" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: UI.feature:11 - path: $, actual: '', expected: 'testwwwwwwwwwwwwwwww', reason: not equal
+</failure>
+    <system-out><![CDATA[21:19:06.089 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:19:06.093 [main] WARN  com.intuit.karate - type was null, defaulting to 'chrome'
+21:19:06.103 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+21:19:06.104 [chrome_1607825946101] DEBUG c.i.k.driver.chrome_1607825946101 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\KarateUdemy\KarateTest\target\chrome_1607825946101, --disable-popup-blocking]
+21:19:06.104 [main] DEBUG c.i.k.driver.chrome_1607825946101 - poll attempt #0 for port to be ready - localhost:9222
+21:19:06.381 [chrome_1607825946101-out] DEBUG c.i.k.driver.chrome_1607825946101 - 
+21:19:06.381 [chrome_1607825946101-out] DEBUG c.i.k.driver.chrome_1607825946101 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/c2b7c885-ef90-43ba-91fa-c8e4de09fa94
+21:19:06.632 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:19:06.800 [main] DEBUG com.intuit.karate - response time in milliseconds: 166.39
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+21:19:06.824 [main] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+21:19:06.828 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 199 ms - http://localhost:9222
+21:19:06.850 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:19:06.862 [main] DEBUG com.intuit.karate - response time in milliseconds: 10.59
+1 < 200
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4FB3456CD03F0E5008EEF78AD9BEA337",
+   "id": "4FB3456CD03F0E5008EEF78AD9BEA337",
+   "title": "Feedback",
+   "type": "background_page",
+   "url": "chrome-extension://gfdkimpbcpahaombhbimeihdjnejgicl/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4FB3456CD03F0E5008EEF78AD9BEA337"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/FBB945612FF8E037149F759143B76EFF",
+   "id": "FBB945612FF8E037149F759143B76EFF",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/FBB945612FF8E037149F759143B76EFF"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/F22BF1DBCEC43C7FEC331A324FF7BB5B",
+   "id": "F22BF1DBCEC43C7FEC331A324FF7BB5B",
+   "title": "",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/F22BF1DBCEC43C7FEC331A324FF7BB5B"
+} ]
+
+
+21:19:06.867 [main] DEBUG c.i.k.driver.chrome_1607825946101 - root frame id: F22BF1DBCEC43C7FEC331A324FF7BB5B
+21:19:07.734 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+21:19:07.793 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Target.activateTarget","params":{"targetId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"},"id":1}
+21:19:07.884 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":1,"result":{}}
+21:19:07.885 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Page.enable","id":2}
+21:19:07.889 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":2,"result":{}}
+21:19:07.892 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.enable","id":3}
+21:19:07.919 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","auxData":{"isDefault":true,"type":"default","frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"}}}}
+21:19:07.921 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":3,"result":{}}
+21:19:07.922 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+21:19:07.927 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":4,"result":{}}
+21:19:07.929 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"},"id":5}
+21:19:07.931 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":945,"height":1030,"windowState":"normal"}}}
+21:19:08.120 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.seleniumeasy.com\/test\/basic-first-form-demo.html"},"id":6}
+21:19:09.802 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":6,"result":{"frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","loaderId":"A0DDE0B46D17A96D688F3F17AFAC25E1"}}
+21:19:09.803 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextsCleared","params":{}}
+21:19:09.805 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"}}
+21:19:09.821 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextsCleared","params":{}}
+21:19:09.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"F22BF1DBCEC43C7FEC331A324FF7BB5B","loaderId":"A0DDE0B46D17A96D688F3F17AFAC25E1","url":"https://www.seleniumeasy.com/test/basic-first-form-demo.html","domainAndRegistry":"seleniumeasy.com","securityOrigin":"https://www.seleniumeasy.com","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated"}}}
+21:19:09.824 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"}}}}
+21:19:10.816 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameAttached","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809","parentFrameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","stack":{"callFrames":[{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":3453},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":5242},{"functionName":"t","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":7152},{"functionName":"t","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":6849},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber" ...
+21:19:10.817 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:10.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"148A1472EE7470F11CDE97D2FE02A809","parentId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","loaderId":"8CF9D5FAC0D4CE51925FC11CBA3352DF","name":"_atssh485","url":"about:blank","domainAndRegistry":"","securityOrigin":"://","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated"}}}
+21:19:10.824 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"148A1472EE7470F11CDE97D2FE02A809"}}}}
+21:19:10.825 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.328 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809","delay":0,"reason":"scriptInitiated","url":"https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html#rand=0.3954228537125679&iit=1607825951320&tmr=load%3D1607825950803%26core%3D1607825950842%26main%3D1607825951316%26ifr%3D1607825951323&cb=0&cdn=0&md=0&kw=&ab=-&dh=www.seleniumeasy.com&dr=&du=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&href=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&dt=Selenium%20Easy%20Demo%20-%20Simple%20Form%20to%20Automate%20using%20Selenium&dbg=0&cap=tc%3D0%26ab%3D0&inst=1&jsl=1&prod=undefined&lng=en&ogt=&pc=men&pub=ra-5eac03b1ca119da4&ssl=1&sid=5fd57a1efbf19e32&srf=0.01&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v8.28.8-wp&ct=1&xld=1&xd=1"}}
+21:19:11.330 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809","reason":"scriptInitiated","url":"https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html#rand=0.3954228537125679&iit=1607825951320&tmr=load%3D1607825950803%26core%3D1607825950842%26main%3D1607825951316%26ifr%3D1607825951323&cb=0&cdn=0&md=0&kw=&ab=-&dh=www.seleniumeasy.com&dr=&du=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&href=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&dt=Selenium%20Easy%20Demo%20-%20Simple%20Form%20to%20Automate%20using%20Selenium&dbg=0&cap=tc%3D0%26ab%3D0&inst=1&jsl=1&prod=undefined&lng=en&ogt=&pc=men&pub=ra-5eac03b1ca119da4&ssl=1&sid=5fd57a1efbf19e32&srf=0.01&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v8.28.8-wp&ct=1&xld=1&xd=1","disposition":"currentTab"}}
+21:19:11.331 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.333 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.334 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.337 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":2}}
+21:19:11.337 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameDetached","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.338 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameAttached","params":{"frameId":"E70697D31E3011C51911F7216F90279C","parentFrameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","stack":{"callFrames":[{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":216298},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":346900},{"functionName":"i","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":214833},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":203775},{"functionName":"onReady","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":202382}]}}}
+21:19:11.339 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"E70697D31E3011C51911F7216F90279C"}}
+21:19:11.355 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Target.attachedToTarget","params":{"sessionId":"A0D0504DB5CD859F0BBA10CB0C32DBF2","targetInfo":{"targetId":"E70697D31E3011C51911F7216F90279C","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"EE452B50AFF4DE6184DB7EEA5F5D8F48"},"waitingForDebugger":false}}
+21:19:11.364 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.domContentEventFired","params":{"timestamp":269447.42627}}
+21:19:11.378 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"E70697D31E3011C51911F7216F90279C"}}}}
+21:19:11.487 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":3}}
+21:19:11.488 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"E70697D31E3011C51911F7216F90279C"}}
+21:19:11.489 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameDetached","params":{"frameId":"E70697D31E3011C51911F7216F90279C"}}
+21:19:11.555 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.evaluate","params":{"expression":"var e = document.querySelector(\"#user-message\"); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}","returnByValue":true},"id":7}
+21:19:11.564 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":7,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+21:19:11.566 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":84},"id":8}
+21:19:11.571 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":8,"result":{}}
+21:19:11.571 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":84},"id":9}
+21:19:11.579 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":9,"result":{}}
+21:19:11.580 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":84},"id":10}
+21:19:11.583 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":10,"result":{}}
+21:19:11.583 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"e","windowsVirtualKeyCode":69},"id":11}
+21:19:11.588 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":11,"result":{}}
+21:19:11.590 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"e","windowsVirtualKeyCode":69},"id":12}
+21:19:11.596 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":12,"result":{}}
+21:19:11.602 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"e","windowsVirtualKeyCode":69},"id":13}
+21:19:11.641 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":13,"result":{}}
+21:19:11.642 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"s","windowsVirtualKeyCode":83},"id":14}
+21:19:11.647 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":14,"result":{}}
+21:19:11.648 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"s","windowsVirtualKeyCode":83},"id":15}
+21:19:11.651 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":15,"result":{}}
+21:19:11.652 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"s","windowsVirtualKeyCode":83},"id":16}
+21:19:11.658 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":16,"result":{}}
+21:19:11.660 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":84},"id":17}
+21:19:11.665 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":17,"result":{}}
+21:19:11.665 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":84},"id":18}
+21:19:11.671 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":18,"result":{}}
+21:19:11.671 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":84},"id":19}
+21:19:11.694 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":19,"result":{}}
+21:19:11.694 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":20}
+21:19:11.696 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":20,"result":{}}
+21:19:11.697 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":21}
+21:19:11.699 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":21,"result":{}}
+21:19:11.700 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":22}
+21:19:11.702 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":22,"result":{}}
+21:19:11.703 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":23}
+21:19:11.705 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":23,"result":{}}
+21:19:11.705 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":24}
+21:19:11.709 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":24,"result":{}}
+21:19:11.710 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":25}
+21:19:11.713 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":25,"result":{}}
+21:19:11.713 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":26}
+21:19:11.715 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":26,"result":{}}
+21:19:11.715 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":27}
+21:19:11.719 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":27,"result":{}}
+21:19:11.719 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":28}
+21:19:11.721 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":28,"result":{}}
+21:19:11.721 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":29}
+21:19:11.724 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":29,"result":{}}
+21:19:11.725 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":30}
+21:19:11.728 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":30,"result":{}}
+21:19:11.729 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":31}
+21:19:11.730 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":31,"result":{}}
+21:19:11.730 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":32}
+21:19:11.732 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":32,"result":{}}
+21:19:11.732 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":33}
+21:19:11.735 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":33,"result":{}}
+21:19:11.735 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":34}
+21:19:11.737 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":34,"result":{}}
+21:19:11.738 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":35}
+21:19:11.740 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":35,"result":{}}
+21:19:11.741 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":36}
+21:19:11.745 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":36,"result":{}}
+21:19:11.745 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":37}
+21:19:11.747 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":37,"result":{}}
+21:19:11.747 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":38}
+21:19:11.749 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":38,"result":{}}
+21:19:11.749 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":39}
+21:19:11.752 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":39,"result":{}}
+21:19:11.752 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":40}
+21:19:11.754 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":40,"result":{}}
+21:19:11.754 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":41}
+21:19:11.758 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":41,"result":{}}
+21:19:11.759 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":42}
+21:19:11.762 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":42,"result":{}}
+21:19:11.763 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":43}
+21:19:11.765 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":43,"result":{}}
+21:19:11.765 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":44}
+21:19:11.767 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":44,"result":{}}
+21:19:11.767 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":45}
+21:19:11.772 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":45,"result":{}}
+21:19:11.773 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":46}
+21:19:11.776 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":46,"result":{}}
+21:19:11.776 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":47}
+21:19:11.778 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":47,"result":{}}
+21:19:11.780 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":48}
+21:19:11.784 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":48,"result":{}}
+21:19:11.784 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":49}
+21:19:11.786 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":49,"result":{}}
+21:19:11.786 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":50}
+21:19:11.789 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":50,"result":{}}
+21:19:11.789 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":51}
+21:19:11.797 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":51,"result":{}}
+21:19:11.798 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":52}
+21:19:11.800 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":52,"result":{}}
+21:19:11.801 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":53}
+21:19:11.803 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":53,"result":{}}
+21:19:11.803 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":54}
+21:19:11.808 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":54,"result":{}}
+21:19:11.810 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":55}
+21:19:11.813 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":55,"result":{}}
+21:19:11.813 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":56}
+21:19:11.816 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":56,"result":{}}
+21:19:11.816 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":57}
+21:19:11.818 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":57,"result":{}}
+21:19:11.819 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":58}
+21:19:11.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":58,"result":{}}
+21:19:11.822 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":59}
+21:19:11.823 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":59,"result":{}}
+21:19:11.824 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":60}
+21:19:11.830 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":60,"result":{}}
+21:19:11.830 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":61}
+21:19:11.831 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":61,"result":{}}
+21:19:11.832 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":62}
+21:19:11.833 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":62,"result":{}}
+21:19:11.834 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":63}
+21:19:11.836 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":63,"result":{}}
+21:19:11.837 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":64}
+21:19:11.838 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":64,"result":{}}
+21:19:11.839 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":65}
+21:19:11.841 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":65,"result":{}}
+21:19:11.842 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":66}
+21:19:11.845 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":66,"result":{}}
+21:19:11.845 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":67}
+21:19:11.846 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":67,"result":{}}
+21:19:11.853 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"#get-input\").click()","returnByValue":true},"id":68}
+21:19:11.859 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":68,"result":{"result":{"type":"undefined"}}}
+21:19:11.868 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"#display\")['textContent']","returnByValue":true},"id":69}
+21:19:11.872 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":69,"result":{"result":{"type":"string","value":""}}}
+21:19:11.877 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '', expected: 'testwwwwwwwwwwwwwwww', reason: not equal
+21:19:11.878 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Target.closeTarget","params":{"targetId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"},"id":70}
+21:19:11.879 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":70,"result":{"success":true}}
+21:19:11.883 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+21:19:11.886 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1607825946101
+---------------------------------------------------------
+feature: classpath:KaratePractice/feature/UI.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 5.7872
+---------------------------------------------------------
+21:19:12.056 [chrome_1607825946101] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\KarateUdemy\KarateTest\target\chrome_1607825946101, --disable-popup-blocking]
+21:19:12.071 [chrome_1607825946101] DEBUG com.intuit.karate.shell.Command - console readers complete
+]]></system-out>
+    <system-err><![CDATA[[Fatal Error] :1:3: The markup in the document preceding the root element must be well-formed.
+]]></system-err>
+  </testcase>
+</testsuite>

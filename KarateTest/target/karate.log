@@ -1,0 +1,1803 @@
+20:58:44.475 [main] INFO  com.intuit.karate - karate.env system property was:  
+20:58:45.112 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+20:58:46.142 [main] DEBUG com.intuit.karate - response time in milliseconds: 1026.47
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 10401
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 600c14fefeebf0f2-IAD
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Dec 2020 01:58:46 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=X8yD%2F8ZuVa9%2F51I7gi1Sg84bPEXR%2ByQ%2FGrM1haMvHSCMeIdY3ObYafUWPjGu5zu9aSbjGsDuTTA3qTdEwB0Y47wrS6pNxzR3Aj%2BTMuI%2B54FzlDDJS4KuxZng8khG"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc020de27daaa82aea7c15fd3135a08d31607824726; expires=Tue, 12-Jan-21 01:58:46 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1607670319
+1 < cf-request-id: 06fb6b73590000f0f23bb11000000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+20:58:46.169 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=dc020de27daaa82aea7c15fd3135a08d31607824726
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+20:58:46.245 [main] DEBUG com.intuit.karate - response time in milliseconds: 59.59
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 26629
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 600c14ffa86ce0fe-IAD
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Sun, 13 Dec 2020 01:58:46 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Pragma: no-cache
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=YB6zfC9TsPSguS%2FrLBB3SWy0gmU%2BJAEpPTQRGhOXQIlz2ZAg6gd7usmMcN6QRl6qExSTVXpQP7P6Z2WY%2Ff7K5TDaTu8INnyJ4peF88vujxodjNsxFxcjhVNMVGOf"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1607798104
+2 < cf-request-id: 06fb6b73c40000e0febc8c5000000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+20:58:46.258 [main] INFO  com.intuit.karate - karate.env system property was:  
+20:58:46.267 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+20:58:46.343 [main] DEBUG com.intuit.karate - response time in milliseconds: 76.41
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 600c15003e89ea8a-IAD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Dec 2020 01:58:47 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=lu7CDJ5nlGxDUj4%2FaaoEsteygPDvypJDcAxMXKwb35cDUIpOV7aMeBERPa07v4QC29Eh1DVhYxHO6CsEb%2FAL%2BgStck%2BSJ%2BZjWMgtaoISP4wF9k4xjpKWHt46wa4H"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9a25ea63cbf3cafdca425810c7df11ed1607824727; expires=Tue, 12-Jan-21 01:58:47 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1607824745
+1 < cf-request-id: 06fb6b74280000ea8ac3100000000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+20:58:46.347 [main] INFO  com.intuit.karate - [print] created id is:  11
+20:59:16.849 [main] INFO  com.intuit.karate - karate.env system property was:  
+20:59:17.451 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+20:59:17.674 [main] DEBUG com.intuit.karate - response time in milliseconds: 220.51
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 10433
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 600c15c3fe2ce0ae-IAD
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Dec 2020 01:59:18 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=yGEv9GOTxmFplq7sC7UuUTzwhuqUMOdzRX90rF%2FzBHwEozakwusuwoV7iG%2BgWnt09L%2B2C9uOW5L6esJc95snnwkjzNGqBuVVwzUX82nJ2O%2FL2ANKNIIfyX5ENiZh"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0cbc2e656cc48345754ddf5baccae57f1607824758; expires=Tue, 12-Jan-21 01:59:18 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1607670319
+1 < cf-request-id: 06fb6bee770000e0ae62ad2000000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+20:59:17.695 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d0cbc2e656cc48345754ddf5baccae57f1607824758
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+20:59:17.765 [main] DEBUG com.intuit.karate - response time in milliseconds: 64.29
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 26661
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 600c15c4af5a3829-IAD
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Sun, 13 Dec 2020 01:59:18 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Pragma: no-cache
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=PONi1HZ5AkjE1NGwAMh2ckapsqYfjRcEatZ0OmGC%2Bvri0hyTYkNCVl5vRvEVLz8REDSpuYqBy8H9AHwk7ZED6vaYR4jkAOdwggZ06oGHOPbgbgfph2J9P3oyc9j%2F"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1607798104
+2 < cf-request-id: 06fb6beeef000038296393a000000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+20:59:17.775 [main] INFO  com.intuit.karate - karate.env system property was:  
+20:59:17.782 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+20:59:17.887 [main] DEBUG com.intuit.karate - response time in milliseconds: 102.78
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 600c15c55cf43877-IAD
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 216
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Dec 2020 01:59:18 GMT
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Q0TuU7HSbmjID0Xr%2FxADbwFNJUfqvw162DzQhWByMdg9Gg9guk7dzF77j2pcJ%2BZUt16JPSEZtU9XjuaebUPz8IEQ0z68wZR253rDXu8%2Bb7aWclLa5IRZErfUqni6"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2bef3e4e3929478cb607d3e8953499811607824758; expires=Tue, 12-Jan-21 01:59:18 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1607824805
+1 < cf-request-id: 06fb6bef5500003877c39d0000000001
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+20:59:17.891 [main] INFO  com.intuit.karate - [print] created id is:  11
+21:15:47.523 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:15:48.139 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:15:48.561 [main] DEBUG com.intuit.karate - response time in milliseconds: 420.87
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 600c2df3bb2dced4-IAD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Dec 2020 02:15:49 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=fB877LcpsTvMiHPel4z0PG5bosOLpCbL0hiFomoHvwEUgClWNMHbUAIV%2BUxCCZMptJ05m4uAts0S6q9bCVh9XiHPkyi5I65brf4%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db496f294af450d223e4d0f4929f250931607825749; expires=Tue, 12-Jan-21 02:15:49 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 06fb7b0c540000ced4da2fc000000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:15:48.565 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+21:19:05.174 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:19:05.768 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:19:06.037 [main] DEBUG com.intuit.karate - response time in milliseconds: 260.96
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 197
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 600c32c7398beaa2-IAD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Dec 2020 02:19:06 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=kdJrcHXmLSCziSq%2Bw%2FBsLUl3GTWHP3URmEHq4Gh1QJox%2BjUTi7rAZwFHPIGVp73ytrQ7isAqBIWqJbxdoHt7ZRTArBskAKYyaiI%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df2d6c02c34913a25c2ca77e72f85de7a1607825946; expires=Tue, 12-Jan-21 02:19:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 06fb7e10820000eaa296861000000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:19:06.043 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+21:19:06.089 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:19:06.093 [main] WARN  com.intuit.karate - type was null, defaulting to 'chrome'
+21:19:06.103 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+21:19:06.104 [chrome_1607825946101] DEBUG c.i.k.driver.chrome_1607825946101 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\KarateUdemy\KarateTest\target\chrome_1607825946101, --disable-popup-blocking]
+21:19:06.104 [main] DEBUG c.i.k.driver.chrome_1607825946101 - poll attempt #0 for port to be ready - localhost:9222
+21:19:06.381 [chrome_1607825946101-out] DEBUG c.i.k.driver.chrome_1607825946101 - 
+21:19:06.381 [chrome_1607825946101-out] DEBUG c.i.k.driver.chrome_1607825946101 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/c2b7c885-ef90-43ba-91fa-c8e4de09fa94
+21:19:06.632 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:19:06.800 [main] DEBUG com.intuit.karate - response time in milliseconds: 166.39
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+21:19:06.824 [main] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+21:19:06.828 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 199 ms - http://localhost:9222
+21:19:06.850 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:19:06.862 [main] DEBUG com.intuit.karate - response time in milliseconds: 10.59
+1 < 200
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4FB3456CD03F0E5008EEF78AD9BEA337",
+   "id": "4FB3456CD03F0E5008EEF78AD9BEA337",
+   "title": "Feedback",
+   "type": "background_page",
+   "url": "chrome-extension://gfdkimpbcpahaombhbimeihdjnejgicl/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4FB3456CD03F0E5008EEF78AD9BEA337"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/FBB945612FF8E037149F759143B76EFF",
+   "id": "FBB945612FF8E037149F759143B76EFF",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/FBB945612FF8E037149F759143B76EFF"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/F22BF1DBCEC43C7FEC331A324FF7BB5B",
+   "id": "F22BF1DBCEC43C7FEC331A324FF7BB5B",
+   "title": "",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/F22BF1DBCEC43C7FEC331A324FF7BB5B"
+} ]
+
+
+21:19:06.867 [main] DEBUG c.i.k.driver.chrome_1607825946101 - root frame id: F22BF1DBCEC43C7FEC331A324FF7BB5B
+21:19:07.734 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+21:19:07.793 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Target.activateTarget","params":{"targetId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"},"id":1}
+21:19:07.884 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":1,"result":{}}
+21:19:07.885 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Page.enable","id":2}
+21:19:07.889 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":2,"result":{}}
+21:19:07.892 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.enable","id":3}
+21:19:07.919 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","auxData":{"isDefault":true,"type":"default","frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"}}}}
+21:19:07.921 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":3,"result":{}}
+21:19:07.922 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+21:19:07.927 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":4,"result":{}}
+21:19:07.929 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"},"id":5}
+21:19:07.931 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":945,"height":1030,"windowState":"normal"}}}
+21:19:08.120 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.seleniumeasy.com\/test\/basic-first-form-demo.html"},"id":6}
+21:19:09.802 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":6,"result":{"frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","loaderId":"A0DDE0B46D17A96D688F3F17AFAC25E1"}}
+21:19:09.803 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextsCleared","params":{}}
+21:19:09.805 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"}}
+21:19:09.821 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextsCleared","params":{}}
+21:19:09.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"F22BF1DBCEC43C7FEC331A324FF7BB5B","loaderId":"A0DDE0B46D17A96D688F3F17AFAC25E1","url":"https://www.seleniumeasy.com/test/basic-first-form-demo.html","domainAndRegistry":"seleniumeasy.com","securityOrigin":"https://www.seleniumeasy.com","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated"}}}
+21:19:09.824 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"}}}}
+21:19:10.816 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameAttached","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809","parentFrameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","stack":{"callFrames":[{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":3453},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":5242},{"functionName":"t","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":7152},{"functionName":"t","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":6849},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber" ...
+21:19:10.817 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:10.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"148A1472EE7470F11CDE97D2FE02A809","parentId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","loaderId":"8CF9D5FAC0D4CE51925FC11CBA3352DF","name":"_atssh485","url":"about:blank","domainAndRegistry":"","securityOrigin":"://","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated"}}}
+21:19:10.824 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"148A1472EE7470F11CDE97D2FE02A809"}}}}
+21:19:10.825 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.328 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809","delay":0,"reason":"scriptInitiated","url":"https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html#rand=0.3954228537125679&iit=1607825951320&tmr=load%3D1607825950803%26core%3D1607825950842%26main%3D1607825951316%26ifr%3D1607825951323&cb=0&cdn=0&md=0&kw=&ab=-&dh=www.seleniumeasy.com&dr=&du=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&href=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&dt=Selenium%20Easy%20Demo%20-%20Simple%20Form%20to%20Automate%20using%20Selenium&dbg=0&cap=tc%3D0%26ab%3D0&inst=1&jsl=1&prod=undefined&lng=en&ogt=&pc=men&pub=ra-5eac03b1ca119da4&ssl=1&sid=5fd57a1efbf19e32&srf=0.01&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v8.28.8-wp&ct=1&xld=1&xd=1"}}
+21:19:11.330 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809","reason":"scriptInitiated","url":"https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html#rand=0.3954228537125679&iit=1607825951320&tmr=load%3D1607825950803%26core%3D1607825950842%26main%3D1607825951316%26ifr%3D1607825951323&cb=0&cdn=0&md=0&kw=&ab=-&dh=www.seleniumeasy.com&dr=&du=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&href=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&dt=Selenium%20Easy%20Demo%20-%20Simple%20Form%20to%20Automate%20using%20Selenium&dbg=0&cap=tc%3D0%26ab%3D0&inst=1&jsl=1&prod=undefined&lng=en&ogt=&pc=men&pub=ra-5eac03b1ca119da4&ssl=1&sid=5fd57a1efbf19e32&srf=0.01&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v8.28.8-wp&ct=1&xld=1&xd=1","disposition":"currentTab"}}
+21:19:11.331 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.333 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.334 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.337 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":2}}
+21:19:11.337 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameDetached","params":{"frameId":"148A1472EE7470F11CDE97D2FE02A809"}}
+21:19:11.338 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameAttached","params":{"frameId":"E70697D31E3011C51911F7216F90279C","parentFrameId":"F22BF1DBCEC43C7FEC331A324FF7BB5B","stack":{"callFrames":[{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":216298},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":346900},{"functionName":"i","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":214833},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":203775},{"functionName":"onReady","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":202382}]}}}
+21:19:11.339 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStartedLoading","params":{"frameId":"E70697D31E3011C51911F7216F90279C"}}
+21:19:11.355 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Target.attachedToTarget","params":{"sessionId":"A0D0504DB5CD859F0BBA10CB0C32DBF2","targetInfo":{"targetId":"E70697D31E3011C51911F7216F90279C","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"EE452B50AFF4DE6184DB7EEA5F5D8F48"},"waitingForDebugger":false}}
+21:19:11.364 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.domContentEventFired","params":{"timestamp":269447.42627}}
+21:19:11.378 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"E70697D31E3011C51911F7216F90279C"}}}}
+21:19:11.487 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":3}}
+21:19:11.488 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"E70697D31E3011C51911F7216F90279C"}}
+21:19:11.489 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"method":"Page.frameDetached","params":{"frameId":"E70697D31E3011C51911F7216F90279C"}}
+21:19:11.555 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.evaluate","params":{"expression":"var e = document.querySelector(\"#user-message\"); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}","returnByValue":true},"id":7}
+21:19:11.564 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":7,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+21:19:11.566 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":84},"id":8}
+21:19:11.571 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":8,"result":{}}
+21:19:11.571 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":84},"id":9}
+21:19:11.579 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":9,"result":{}}
+21:19:11.580 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":84},"id":10}
+21:19:11.583 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":10,"result":{}}
+21:19:11.583 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"e","windowsVirtualKeyCode":69},"id":11}
+21:19:11.588 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":11,"result":{}}
+21:19:11.590 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"e","windowsVirtualKeyCode":69},"id":12}
+21:19:11.596 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":12,"result":{}}
+21:19:11.602 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"e","windowsVirtualKeyCode":69},"id":13}
+21:19:11.641 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":13,"result":{}}
+21:19:11.642 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"s","windowsVirtualKeyCode":83},"id":14}
+21:19:11.647 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":14,"result":{}}
+21:19:11.648 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"s","windowsVirtualKeyCode":83},"id":15}
+21:19:11.651 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":15,"result":{}}
+21:19:11.652 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"s","windowsVirtualKeyCode":83},"id":16}
+21:19:11.658 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":16,"result":{}}
+21:19:11.660 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":84},"id":17}
+21:19:11.665 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":17,"result":{}}
+21:19:11.665 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":84},"id":18}
+21:19:11.671 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":18,"result":{}}
+21:19:11.671 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":84},"id":19}
+21:19:11.694 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":19,"result":{}}
+21:19:11.694 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":20}
+21:19:11.696 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":20,"result":{}}
+21:19:11.697 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":21}
+21:19:11.699 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":21,"result":{}}
+21:19:11.700 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":22}
+21:19:11.702 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":22,"result":{}}
+21:19:11.703 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":23}
+21:19:11.705 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":23,"result":{}}
+21:19:11.705 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":24}
+21:19:11.709 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":24,"result":{}}
+21:19:11.710 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":25}
+21:19:11.713 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":25,"result":{}}
+21:19:11.713 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":26}
+21:19:11.715 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":26,"result":{}}
+21:19:11.715 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":27}
+21:19:11.719 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":27,"result":{}}
+21:19:11.719 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":28}
+21:19:11.721 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":28,"result":{}}
+21:19:11.721 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":29}
+21:19:11.724 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":29,"result":{}}
+21:19:11.725 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":30}
+21:19:11.728 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":30,"result":{}}
+21:19:11.729 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":31}
+21:19:11.730 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":31,"result":{}}
+21:19:11.730 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":32}
+21:19:11.732 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":32,"result":{}}
+21:19:11.732 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":33}
+21:19:11.735 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":33,"result":{}}
+21:19:11.735 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":34}
+21:19:11.737 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":34,"result":{}}
+21:19:11.738 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":35}
+21:19:11.740 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":35,"result":{}}
+21:19:11.741 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":36}
+21:19:11.745 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":36,"result":{}}
+21:19:11.745 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":37}
+21:19:11.747 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":37,"result":{}}
+21:19:11.747 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":38}
+21:19:11.749 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":38,"result":{}}
+21:19:11.749 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":39}
+21:19:11.752 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":39,"result":{}}
+21:19:11.752 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":40}
+21:19:11.754 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":40,"result":{}}
+21:19:11.754 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":41}
+21:19:11.758 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":41,"result":{}}
+21:19:11.759 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":42}
+21:19:11.762 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":42,"result":{}}
+21:19:11.763 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":43}
+21:19:11.765 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":43,"result":{}}
+21:19:11.765 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":44}
+21:19:11.767 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":44,"result":{}}
+21:19:11.767 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":45}
+21:19:11.772 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":45,"result":{}}
+21:19:11.773 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":46}
+21:19:11.776 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":46,"result":{}}
+21:19:11.776 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":47}
+21:19:11.778 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":47,"result":{}}
+21:19:11.780 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":48}
+21:19:11.784 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":48,"result":{}}
+21:19:11.784 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":49}
+21:19:11.786 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":49,"result":{}}
+21:19:11.786 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":50}
+21:19:11.789 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":50,"result":{}}
+21:19:11.789 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":51}
+21:19:11.797 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":51,"result":{}}
+21:19:11.798 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":52}
+21:19:11.800 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":52,"result":{}}
+21:19:11.801 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":53}
+21:19:11.803 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":53,"result":{}}
+21:19:11.803 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":54}
+21:19:11.808 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":54,"result":{}}
+21:19:11.810 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":55}
+21:19:11.813 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":55,"result":{}}
+21:19:11.813 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":56}
+21:19:11.816 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":56,"result":{}}
+21:19:11.816 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":57}
+21:19:11.818 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":57,"result":{}}
+21:19:11.819 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":58}
+21:19:11.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":58,"result":{}}
+21:19:11.822 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":59}
+21:19:11.823 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":59,"result":{}}
+21:19:11.824 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":60}
+21:19:11.830 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":60,"result":{}}
+21:19:11.830 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":61}
+21:19:11.831 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":61,"result":{}}
+21:19:11.832 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":62}
+21:19:11.833 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":62,"result":{}}
+21:19:11.834 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":63}
+21:19:11.836 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":63,"result":{}}
+21:19:11.837 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":64}
+21:19:11.838 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":64,"result":{}}
+21:19:11.839 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":65}
+21:19:11.841 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":65,"result":{}}
+21:19:11.842 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":66}
+21:19:11.845 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":66,"result":{}}
+21:19:11.845 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":67}
+21:19:11.846 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":67,"result":{}}
+21:19:11.853 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"#get-input\").click()","returnByValue":true},"id":68}
+21:19:11.859 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":68,"result":{"result":{"type":"undefined"}}}
+21:19:11.868 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"#display\")['textContent']","returnByValue":true},"id":69}
+21:19:11.872 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":69,"result":{"result":{"type":"string","value":""}}}
+21:19:11.877 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '', expected: 'testwwwwwwwwwwwwwwww', reason: not equal
+21:19:11.878 [main] DEBUG c.i.k.driver.chrome_1607825946101 - >> {"method":"Target.closeTarget","params":{"targetId":"F22BF1DBCEC43C7FEC331A324FF7BB5B"},"id":70}
+21:19:11.879 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607825946101 - << {"id":70,"result":{"success":true}}
+21:19:11.883 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+21:19:11.886 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1607825946101
+21:19:12.056 [chrome_1607825946101] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\KarateUdemy\KarateTest\target\chrome_1607825946101, --disable-popup-blocking]
+21:19:12.071 [chrome_1607825946101] DEBUG com.intuit.karate.shell.Command - console readers complete
+21:21:10.867 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:21:11.496 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:21:11.710 [main] DEBUG com.intuit.karate - response time in milliseconds: 211.68
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 323
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 600c35d8dc80c193-IAD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Dec 2020 02:21:12 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=enPWpUzc6BeXBi8iwaY3OJpPyYGk8pH6u8WPNt%2B9YTL%2F0pv2IzdSQ1exgqnjH1uzeXBL4RzMkW%2FmCte0fpAXYhoNB5scx891dwY%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dacc3826b81ed73a2b8012070e293ca2b1607826072; expires=Tue, 12-Jan-21 02:21:12 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 06fb7ffb880000c193db858000000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:21:11.716 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+21:21:11.768 [main] INFO  com.intuit.karate - karate.env system property was:  
+21:21:11.772 [main] WARN  com.intuit.karate - type was null, defaulting to 'chrome'
+21:21:11.780 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+21:21:11.781 [chrome_1607826071779] DEBUG c.i.k.driver.chrome_1607826071779 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\KarateUdemy\KarateTest\target\chrome_1607826071779, --disable-popup-blocking]
+21:21:11.782 [main] DEBUG c.i.k.driver.chrome_1607826071779 - poll attempt #0 for port to be ready - localhost:9222
+21:21:12.025 [chrome_1607826071779-out] DEBUG c.i.k.driver.chrome_1607826071779 - 
+21:21:12.026 [chrome_1607826071779-out] DEBUG c.i.k.driver.chrome_1607826071779 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/ed317f5e-c961-40c7-9448-9204251545f8
+21:21:12.327 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:21:12.336 [main] DEBUG com.intuit.karate - response time in milliseconds: 7.43
+1 < 200
+1 < Content-Length: 5294
+1 < Content-Type: text/html; charset=UTF-8
+<!doctype html>
+<html lang="en">
+<title>Inspectable pages</title>
+<meta name="referrer" content="no-referrer">
+<style>
+body {
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;
+}
+
+#caption {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 20px;
+  text-align: left;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item {
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+  transition-property: background-color, border-color;
+  transition: background-color 0.15s, 0.15s;
+  transition-delay: 0ms, 0ms;
+}
+
+.item:not(.connected):hover {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(110, 116, 128, 1);
+  color: black;
+}
+
+.item.connected:hover {
+  border-color: rgba(184, 184, 184, 1);
+  color: rgb(110, 116, 128);
+}
+
+.item.custom {
+    cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title, .subtitle, .custom-url {
+  font-size: 13px;
+  margin: 4px 0px 0px 6px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.title {
+  background-repeat: no-repeat;
+  background-size: 16px;
+  font-size: 15px;
+}
+
+.custom-url {
+  display: flex;
+}
+
+.custom-url-label {
+  flex: 0 0 auto;
+}
+
+.custom-url-value {
+  font-family: monospace;
+  margin-left: 1em;
+}
+
+</style>
+
+<script>
+
+function onLoad() {
+  var tabsListRequest = new XMLHttpRequest();
+  tabsListRequest.open('GET', '/json/list', true);
+  tabsListRequest.onreadystatechange = onReady;
+  tabsListRequest.send();
+}
+
+function onReady() {
+  if(this.readyState == 4 && this.status == 200) {
+    if(this.response != null)
+      var responseJSON = JSON.parse(this.response);
+      for (var i = 0; i < responseJSON.length; ++i)
+        appendItem(responseJSON[i]);
+  }
+}
+
+function onBlur(event) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function onFocus(selectElement, event) {
+  selectNodeText(selectElement, event);
+  event.stopPropagation();
+  event.preventDefault();
+}
+
+function customFrontendURL(url) {
+  if (!url || !window.location.hash)
+    return null;
+
+  var hashParams = new URLSearchParams(location.hash.substring(1));
+  if (!hashParams.get("custom"))
+    return null;
+
+  var searchIndex = url.indexOf("?");
+  if (searchIndex === -1)
+    return null;
+  var originalParams = url.substring(searchIndex + 1);
+  if (hashParams.get("experiments"))
+    originalParams += "&experiments=true";
+
+  return "devtools://devtools/custom/inspector.html?" + originalParams;
+}
+
+function appendItem(item_object) {
+  var item_element;
+  var customURL = customFrontendURL(item_object.devtoolsFrontendUrl);
+  if (customURL) {
+    item_element = document.createElement('div');
+    item_element.title = item_object.title;
+    item_element.className = 'custom';
+  } else if (item_object.devtoolsFrontendUrl) {
+    item_element = document.createElement('a');
+    item_element.href = item_object.devtoolsFrontendUrl;
+    item_element.title = item_object.title;
+  } else {
+    item_element = document.createElement('div');
+    item_element.className = 'connected';
+    item_element.title = 'The tab already has an active debug session';
+  }
+  item_element.classList.add('item');
+
+  var description = document.createElement('div');
+  description.className = 'description';
+
+  var title = document.createElement('div');
+  title.className = 'title';
+  title.textContent = item_object.description || item_object.title;
+  if (item_object.faviconUrl) {
+    title.style.backgroundImage = 'url(' + item_object.faviconUrl + ')';
+  }
+  description.appendChild(title);
+
+  var subtitle = document.createElement('div');
+  subtitle.className = 'subtitle';
+  subtitle.textContent = (item_object.url || '').substring(0, 300);
+  description.appendChild(subtitle);
+
+  if (customURL) {
+    var urlContainer = document.createElement('div');
+    urlContainer.classList.add("custom-url");
+    var urlLabel = document.createElement('div');
+    urlLabel.classList.add("custom-url-label");
+    urlLabel.textContent = "Click to copy URL:";
+    urlContainer.appendChild(urlLabel);
+    var urlValue = document.createElement('div');
+    urlValue.classList.add("custom-url-value");
+    urlValue.textContent = customURL;
+    urlValue.tabIndex = 0;
+    urlValue.addEventListener('blur', onBlur);
+    urlValue.addEventListener('focus', event => onFocus(urlValue, event));
+    urlContainer.appendChild(urlValue);
+    description.appendChild(urlContainer);
+    item_element.addEventListener('click', selectNodeText.bind(null, urlValue));
+  }
+
+  item_element.appendChild(description);
+
+  document.getElementById('items').appendChild(item_element);
+}
+
+function selectNodeText(selectElement, event)
+{
+  var selection = window.getSelection();
+  if (!selection.isCollapsed)
+    return;
+  var range = document.createRange();
+  range.selectNode(selectElement);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  event.stopPropagation();
+  event.preventDefault();
+}
+</script>
+</head>
+<body onload='onLoad()'>
+  <div role='main'>
+    <div id='caption' role='heading' aria-level='1'>Inspectable pages</div>
+    <hr>
+    <div id='items'>
+    </div>
+  </div>
+</body>
+</html>
+
+
+21:21:12.341 [main] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+21:21:12.342 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 21 ms - http://localhost:9222
+21:21:12.357 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_161)
+
+21:21:12.364 [main] DEBUG com.intuit.karate - response time in milliseconds: 6.70
+1 < 200
+1 < Content-Length: 2201
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/F085D9B1F8B0DD853DBDA7D3ACBC0F6D",
+   "id": "F085D9B1F8B0DD853DBDA7D3ACBC0F6D",
+   "title": "CryptoTokenExtension",
+   "type": "background_page",
+   "url": "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/F085D9B1F8B0DD853DBDA7D3ACBC0F6D"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/D93A32B776B0D37F671019ED66FDE453",
+   "id": "D93A32B776B0D37F671019ED66FDE453",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/D93A32B776B0D37F671019ED66FDE453"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/2FA07B11A464F03BA73DC5A638D05EAD",
+   "id": "2FA07B11A464F03BA73DC5A638D05EAD",
+   "title": "Feedback",
+   "type": "background_page",
+   "url": "chrome-extension://gfdkimpbcpahaombhbimeihdjnejgicl/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/2FA07B11A464F03BA73DC5A638D05EAD"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9BE4A673FEF08C7D03C866F023ABF5A3",
+   "id": "9BE4A673FEF08C7D03C866F023ABF5A3",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9BE4A673FEF08C7D03C866F023ABF5A3"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/5475E9DFE32D3547A8E06EA0DBECC105",
+   "id": "5475E9DFE32D3547A8E06EA0DBECC105",
+   "title": "Welcome to Chrome",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/5475E9DFE32D3547A8E06EA0DBECC105"
+} ]
+
+
+21:21:12.369 [main] DEBUG c.i.k.driver.chrome_1607826071779 - root frame id: 5475E9DFE32D3547A8E06EA0DBECC105
+21:21:13.352 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client connected
+21:21:13.353 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Target.activateTarget","params":{"targetId":"5475E9DFE32D3547A8E06EA0DBECC105"},"id":1}
+21:21:13.451 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":1,"result":{}}
+21:21:13.452 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Page.enable","id":2}
+21:21:13.456 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":2,"result":{}}
+21:21:13.457 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Runtime.enable","id":3}
+21:21:13.459 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","auxData":{"isDefault":true,"type":"default","frameId":"5475E9DFE32D3547A8E06EA0DBECC105"}}}}
+21:21:13.460 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":3,"result":{}}
+21:21:13.461 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Target.setAutoAttach","params":{"autoAttach":true,"waitForDebuggerOnStart":false,"flatten":true},"id":4}
+21:21:13.470 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":4,"result":{}}
+21:21:13.470 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Browser.getWindowForTarget","params":{"targetId":"5475E9DFE32D3547A8E06EA0DBECC105"},"id":5}
+21:21:13.472 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":5,"result":{"windowId":1,"bounds":{"left":10,"top":10,"width":945,"height":1030,"windowState":"normal"}}}
+21:21:13.623 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Page.navigate","params":{"url":"https:\/\/www.seleniumeasy.com\/test\/basic-first-form-demo.html"},"id":6}
+21:21:14.457 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":6,"result":{"frameId":"5475E9DFE32D3547A8E06EA0DBECC105","loaderId":"E7FFE226CB400A83C82668B6AA14E3F0"}}
+21:21:14.459 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextsCleared","params":{}}
+21:21:14.462 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameStartedLoading","params":{"frameId":"5475E9DFE32D3547A8E06EA0DBECC105"}}
+21:21:14.484 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextsCleared","params":{}}
+21:21:14.487 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"5475E9DFE32D3547A8E06EA0DBECC105","loaderId":"E7FFE226CB400A83C82668B6AA14E3F0","url":"https://www.seleniumeasy.com/test/basic-first-form-demo.html","domainAndRegistry":"seleniumeasy.com","securityOrigin":"https://www.seleniumeasy.com","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated"}}}
+21:21:14.488 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"5475E9DFE32D3547A8E06EA0DBECC105"}}}}
+21:21:15.056 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameAttached","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC","parentFrameId":"5475E9DFE32D3547A8E06EA0DBECC105","stack":{"callFrames":[{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":3453},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":5242},{"functionName":"t","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":7152},{"functionName":"t","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":106},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":68,"columnNumber":6849},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber" ...
+21:21:15.057 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameStartedLoading","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC"}}
+21:21:15.062 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"76D1EFB33E8DF8611361EAA525D27ADC","parentId":"5475E9DFE32D3547A8E06EA0DBECC105","loaderId":"D69FDADF7B5EE24C2CA5110AA7663222","name":"_atssh690","url":"about:blank","domainAndRegistry":"","securityOrigin":"://","mimeType":"text/html","adFrameType":"none","secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated"}}}
+21:21:15.063 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"76D1EFB33E8DF8611361EAA525D27ADC"}}}}
+21:21:15.064 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC"}}
+21:21:15.545 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC","delay":0,"reason":"scriptInitiated","url":"https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html#rand=0.6637963058584657&iit=1607826075539&tmr=load%3D1607826075046%26core%3D1607826075083%26main%3D1607826075535%26ifr%3D1607826075541&cb=0&cdn=0&md=0&kw=&ab=-&dh=www.seleniumeasy.com&dr=&du=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&href=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&dt=Selenium%20Easy%20Demo%20-%20Simple%20Form%20to%20Automate%20using%20Selenium&dbg=0&cap=tc%3D0%26ab%3D0&inst=1&jsl=1&prod=undefined&lng=en&ogt=&pc=men&pub=ra-5eac03b1ca119da4&ssl=1&sid=5fd57a9bb2515567&srf=0.01&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v8.28.8-wp&ct=1&xld=1&xd=1"}}
+21:21:15.548 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC","reason":"scriptInitiated","url":"https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html#rand=0.6637963058584657&iit=1607826075539&tmr=load%3D1607826075046%26core%3D1607826075083%26main%3D1607826075535%26ifr%3D1607826075541&cb=0&cdn=0&md=0&kw=&ab=-&dh=www.seleniumeasy.com&dr=&du=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&href=https%3A%2F%2Fwww.seleniumeasy.com%2Ftest%2Fbasic-first-form-demo.html&dt=Selenium%20Easy%20Demo%20-%20Simple%20Form%20to%20Automate%20using%20Selenium&dbg=0&cap=tc%3D0%26ab%3D0&inst=1&jsl=1&prod=undefined&lng=en&ogt=&pc=men&pub=ra-5eac03b1ca119da4&ssl=1&sid=5fd57a9bb2515567&srf=0.01&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v8.28.8-wp&ct=1&xld=1&xd=1","disposition":"currentTab"}}
+21:21:15.549 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameStartedLoading","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC"}}
+21:21:15.551 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC"}}
+21:21:15.551 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC"}}
+21:21:15.553 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":2}}
+21:21:15.553 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameDetached","params":{"frameId":"76D1EFB33E8DF8611361EAA525D27ADC"}}
+21:21:15.554 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameAttached","params":{"frameId":"31DAE9F55C3A0234243C02BFFA929665","parentFrameId":"5475E9DFE32D3547A8E06EA0DBECC105","stack":{"callFrames":[{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":216298},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":346900},{"functionName":"i","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":214833},{"functionName":"","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":203775},{"functionName":"onReady","scriptId":"5","url":"https://s7.addthis.com/js/300/addthis_widget.js","lineNumber":69,"columnNumber":202382}]}}}
+21:21:15.555 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameStartedLoading","params":{"frameId":"31DAE9F55C3A0234243C02BFFA929665"}}
+21:21:15.571 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.domContentEventFired","params":{"timestamp":269571.631633}}
+21:21:15.579 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.seleniumeasy.com","name":"","auxData":{"isDefault":true,"type":"default","frameId":"31DAE9F55C3A0234243C02BFFA929665"}}}}
+21:21:15.606 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Target.attachedToTarget","params":{"sessionId":"EAEC63A9859282D7401F344E9B68C425","targetInfo":{"targetId":"31DAE9F55C3A0234243C02BFFA929665","type":"iframe","title":"","url":"","attached":true,"canAccessOpener":false,"browserContextId":"4A11C4A2BD25BD31A261A21ED55F9BD1"},"waitingForDebugger":false}}
+21:21:15.636 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":3}}
+21:21:15.637 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"31DAE9F55C3A0234243C02BFFA929665"}}
+21:21:15.638 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"method":"Page.frameDetached","params":{"frameId":"31DAE9F55C3A0234243C02BFFA929665"}}
+21:21:15.654 [chrome_1607826071779-out] DEBUG c.i.k.driver.chrome_1607826071779 - [26800:26844:1212/212115.653:ERROR:device_event_log_impl.cc(211)] [21:21:15.654] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+21:21:15.704 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Runtime.evaluate","params":{"expression":"var e = document.querySelector(\"#user-message\"); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}","returnByValue":true},"id":7}
+21:21:15.711 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":7,"result":{"result":{"type":"number","value":0,"description":"0"}}}
+21:21:15.717 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":84},"id":8}
+21:21:15.724 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":8,"result":{}}
+21:21:15.724 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":84},"id":9}
+21:21:15.729 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":9,"result":{}}
+21:21:15.732 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":84},"id":10}
+21:21:15.737 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":10,"result":{}}
+21:21:15.737 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"e","windowsVirtualKeyCode":69},"id":11}
+21:21:15.741 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":11,"result":{}}
+21:21:15.742 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"e","windowsVirtualKeyCode":69},"id":12}
+21:21:15.745 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":12,"result":{}}
+21:21:15.745 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"e","windowsVirtualKeyCode":69},"id":13}
+21:21:15.749 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":13,"result":{}}
+21:21:15.751 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"s","windowsVirtualKeyCode":83},"id":14}
+21:21:15.757 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":14,"result":{}}
+21:21:15.757 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"s","windowsVirtualKeyCode":83},"id":15}
+21:21:15.762 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":15,"result":{}}
+21:21:15.763 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"s","windowsVirtualKeyCode":83},"id":16}
+21:21:15.766 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":16,"result":{}}
+21:21:15.769 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":84},"id":17}
+21:21:15.774 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":17,"result":{}}
+21:21:15.775 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":84},"id":18}
+21:21:15.779 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":18,"result":{}}
+21:21:15.779 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":84},"id":19}
+21:21:15.788 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":19,"result":{}}
+21:21:15.788 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":20}
+21:21:15.792 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":20,"result":{}}
+21:21:15.792 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":21}
+21:21:15.795 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":21,"result":{}}
+21:21:15.796 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":22}
+21:21:15.798 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":22,"result":{}}
+21:21:15.799 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":23}
+21:21:15.804 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":23,"result":{}}
+21:21:15.804 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":24}
+21:21:15.808 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":24,"result":{}}
+21:21:15.808 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":25}
+21:21:15.811 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":25,"result":{}}
+21:21:15.817 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":26}
+21:21:15.822 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":26,"result":{}}
+21:21:15.822 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":27}
+21:21:15.827 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":27,"result":{}}
+21:21:15.828 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":28}
+21:21:15.835 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":28,"result":{}}
+21:21:15.836 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":29}
+21:21:15.862 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":29,"result":{}}
+21:21:15.862 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":30}
+21:21:15.866 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":30,"result":{}}
+21:21:15.867 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":31}
+21:21:15.869 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":31,"result":{}}
+21:21:15.869 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":32}
+21:21:15.871 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":32,"result":{}}
+21:21:15.872 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":33}
+21:21:15.879 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":33,"result":{}}
+21:21:15.880 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":34}
+21:21:15.882 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":34,"result":{}}
+21:21:15.883 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":35}
+21:21:15.884 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":35,"result":{}}
+21:21:15.885 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":36}
+21:21:15.890 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":36,"result":{}}
+21:21:15.890 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":37}
+21:21:15.892 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":37,"result":{}}
+21:21:15.892 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":38}
+21:21:15.914 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":38,"result":{}}
+21:21:15.915 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":39}
+21:21:15.919 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":39,"result":{}}
+21:21:15.920 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":40}
+21:21:15.922 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":40,"result":{}}
+21:21:15.922 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":41}
+21:21:15.925 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":41,"result":{}}
+21:21:15.925 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":42}
+21:21:15.929 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":42,"result":{}}
+21:21:15.929 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":43}
+21:21:15.955 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":43,"result":{}}
+21:21:15.956 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":44}
+21:21:15.960 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":44,"result":{}}
+21:21:15.961 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":45}
+21:21:15.965 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":45,"result":{}}
+21:21:15.965 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":46}
+21:21:15.971 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":46,"result":{}}
+21:21:15.971 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":47}
+21:21:15.973 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":47,"result":{}}
+21:21:15.973 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":48}
+21:21:15.976 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":48,"result":{}}
+21:21:15.977 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":49}
+21:21:15.978 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":49,"result":{}}
+21:21:15.978 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":50}
+21:21:15.980 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":50,"result":{}}
+21:21:15.980 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":51}
+21:21:15.987 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":51,"result":{}}
+21:21:15.987 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":52}
+21:21:15.989 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":52,"result":{}}
+21:21:15.989 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":53}
+21:21:15.990 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":53,"result":{}}
+21:21:15.991 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":54}
+21:21:15.993 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":54,"result":{}}
+21:21:15.993 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":55}
+21:21:15.994 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":55,"result":{}}
+21:21:15.995 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":56}
+21:21:15.996 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":56,"result":{}}
+21:21:15.997 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":57}
+21:21:15.999 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":57,"result":{}}
+21:21:16.000 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":58}
+21:21:16.002 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":58,"result":{}}
+21:21:16.002 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":59}
+21:21:16.003 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":59,"result":{}}
+21:21:16.004 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":60}
+21:21:16.006 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":60,"result":{}}
+21:21:16.006 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":61}
+21:21:16.007 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":61,"result":{}}
+21:21:16.007 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":62}
+21:21:16.009 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":62,"result":{}}
+21:21:16.009 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":63}
+21:21:16.011 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":63,"result":{}}
+21:21:16.012 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":64}
+21:21:16.014 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":64,"result":{}}
+21:21:16.014 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"w","windowsVirtualKeyCode":87},"id":65}
+21:21:16.016 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":65,"result":{}}
+21:21:16.016 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"w","windowsVirtualKeyCode":87},"id":66}
+21:21:16.018 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":66,"result":{}}
+21:21:16.018 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"w","windowsVirtualKeyCode":87},"id":67}
+21:21:16.019 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":67,"result":{}}
+21:21:16.028 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"#get-input\").click()","returnByValue":true},"id":68}
+21:21:16.037 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":68,"result":{"result":{"type":"undefined"}}}
+21:21:16.046 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"#display\")['textContent']","returnByValue":true},"id":69}
+21:21:16.050 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":69,"result":{"result":{"type":"string","value":""}}}
+21:21:16.053 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '', expected: 'testwwwwwwwwwwwwwwww', reason: not equal
+21:21:16.054 [main] DEBUG c.i.k.driver.chrome_1607826071779 - >> {"method":"Target.closeTarget","params":{"targetId":"5475E9DFE32D3547A8E06EA0DBECC105"},"id":70}
+21:21:16.056 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1607826071779 - << {"id":70,"result":{"success":true}}
+21:21:16.061 [nioEventLoopGroup-2-1] DEBUG c.i.k.netty.WebSocketClientHandler - websocket client disconnected
+21:21:16.062 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1607826071779
