@@ -5,6 +5,8 @@
     #* print response
     #* print response test
     #* print response test 3
+    #* print response test 4
+>>>>>>> ecc47725b2faeb26a3c8ef930c814a37a1287284
     And match response == resultop[1]
     Then print 'result---',result
     * def first_name = result.response.data.first_name
