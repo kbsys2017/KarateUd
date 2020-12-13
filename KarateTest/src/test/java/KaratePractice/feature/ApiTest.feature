@@ -3,6 +3,7 @@
     When method get
     Then status 200
     #* print response
+    #* print response test
     And match response == resultop[1]
     Then print 'result---',result
     * def first_name = result.response.data.first_name
