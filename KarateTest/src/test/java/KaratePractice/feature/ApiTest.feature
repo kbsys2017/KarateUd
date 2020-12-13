@@ -4,6 +4,7 @@
     Then status 200
     #* print response
     #* print response test
+    #* print response test 3
     And match response == resultop[1]
     Then print 'result---',result
     * def first_name = result.response.data.first_name
